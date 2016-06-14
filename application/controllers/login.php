@@ -119,8 +119,8 @@ class Login extends CI_Controller {
 
                     $data['message']= '';    
                     $config['protocol'] = 'mail'; // mail, sendmail, or smtp    The mail sending protocol.
-                    $config['smtp_host'] = 'smtp3.cybersmart.co.za';//'mail.e-smartlab.com'; // SMTP Server Address.
-                    $config['smtp_user'] = 'null';//'hll@e-smartlab.com'; // SMTP Username.
+                    $config['smtp_host'] = 'xxx.xxx.xx.xx'; // SMTP Server Address.
+                    $config['smtp_user'] = 'null';
                     $config['smtp_pass'] = 'null';//'hll@hll'; // SMTP Password.
                     $config['smtp_port'] = '25'; // SMTP Port.
                     $config['smtp_timeout'] = '5'; // SMTP Timeout (in seconds).
@@ -179,7 +179,7 @@ class Login extends CI_Controller {
             
             $data['message']= '';    
             $config['protocol'] = 'mail'; // mail, sendmail, or smtp    The mail sending protocol.
-            $config['smtp_host'] = 'smtp3.cybersmart.co.za';//'mail.e-smartlab.com'; // SMTP Server Address.
+            $config['smtp_host'] = 'xxxx.xxx.xx.xx'; // SMTP Server Address.
             $config['smtp_user'] = 'null';//'hll@e-smartlab.com'; // SMTP Username.
             $config['smtp_pass'] = 'null';//'hll@hll'; // SMTP Password.
             $config['smtp_port'] = '465'; // SMTP Port.
